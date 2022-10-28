@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 844px) {
    
     header {
         margin-left: 20px;
@@ -101,5 +101,6 @@
     }
     footer {
         margin-top: 2400px;
+        text-align: center;
     }
 }
