@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+
+}
+
+header {
+    margin-left: 236px;
+    margin-top: 52px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+}
+
+.description {
+    position: absolute;
+    width: 592px;
+    height: 51px;
+    left: 261px;
+    top: 125px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+}
+
+.description::before {
+    content: url('assets/6dots.svg');
+    position: absolute;
+    width: 13px;
+    height: 8px;
+    left: -20px;
+    top: 0px;
+}
+
+.image img {
+    position: absolute;
+    width: 969px;
+    height: 470px;
+    left: 234px;
+    top: 193px;
+    margin-top: 30px;
+}
+
+.recipe-ingredients {
+    margin-left: 234px;
+    
+}
+
+#ingredients-title {
+    position: absolute;
+    width: 128px;
+    height: 32px;
+    left: 236px;
+    top: 711px;
+
+    margin-top: 10px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.cracker-crust-title {
+    position: absolute;
+    width: 177px;
+    height: 24px;
+    left: 237px;
+    top: 766px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.cracker-crust-content {
+    margin-top: 700px;
+    width: 574px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.id-label {
+    margin-left: 30px;
+}
+
+.cheesecake-title {
+    margin-top: 50px;
+    margin-bottom: 31px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.cheesecake-content {
+    width: 574px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.instructions-title {
+    margin-top: 200px;
+    margin-left: 236px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;    
+    color: #333333;
+}
+
+.instructions-content {
+    margin-left: 234px;
+    display: flex;
+    flex-direction: column;
+    width: 528px;
+    margin-top: 30px;
+}
+
+.number {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+
+    background: #F2994A;
+    border-radius: 6px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 30px;
+}
+
+.instructions-text {
+    margin-left: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.source {
+    margin-top: 57px;
+    margin-left: 236px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;    
+    color: #BDBDBD;
+}
+
+.note {
+    width: 216px;
+    height: 367px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 984px;
+    margin-top: -1920px;
+    z-index: 5;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  
+}
+
+.note-info {
+    display: flex;
+    gap: 10px;
+}
+
+.note-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+
+.note-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.note-subtitle-orange {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F2994A;
+}
+
+#cook {
+    margin-left: -20px;
+}
+
+#time {
+    margin-left: -10px;
+}
+
+#icon-orange {
+    color: #F2994A; 
+}
+
+footer {
+    margin-top: 1600px
+   
+}
+
+.footer-link {
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+    color: #F2994A;
+}
+
+a {
+    color: #F2994A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+}
